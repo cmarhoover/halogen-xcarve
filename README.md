@@ -20,7 +20,7 @@ Files for customized CNC router, based on X-Carve XXL, using X-Controller driver
 - Custom SLA printed dust shoe.
 - Custom HDPE vacuum grid on MDF/steel table + Ametek 3-stage vacuum motor.
 - Custom acrylic retractable tool magazine.
-- Metrol P21 tool setter (unbranded)
+- Metrol P21 tool setter
 - OpenBuilds 24v ring LED
 - Festo 24v Solenoids
 - Festo regulator / air filter
