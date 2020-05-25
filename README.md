@@ -5,7 +5,7 @@ Files for customized CNC router, based on X-Carve XXL.
 - Mechatron HFSAC-6508-ER11 spindle + Mechatron STC65 tool changer + Omron MX2 VFD<br>
 - Customized X-controller box with add'l components:<br>
   - Lattepanda v1 2G/32G Intel Atom z8350 + integrated arduino leonardo.
-    - Manjaro XFCE 
+    - Manjaro 20 XFCE 
     - cncjs
     - lcd on grbl
   - Buck converters for 12v and 5v
@@ -13,13 +13,21 @@ Files for customized CNC router, based on X-Carve XXL.
   - 20x4 LCD
   - Quick release E-stop
   - Wifi antenna
+  - Noctua 40mm x 40mm 12v quiet fan
 - 1000mm x 1000mm makerslide frame, stiffened / raised.
 - 8mm lead screws for all axes. Based on kit from <a href="https://mfxworkshop.com/product/screwdrive-kit-2-lift/">MFX Workshop</a>. 
 - Custom Z-axis linear slide.
 - Custom SLA printed dust shoe.
 - Custom HDPE vacuum grid on MDF/steel table + Ametek 3-stage vacuum motor.
 - Custom acrylic retractable tool magazine.
+- Metrol P21 tool setter (unbranded)
+- OpenBuilds 24v ring LED
+- Festo 24v Solenoids
+- Festo regulator / air filter
+- Ultramation linear thrusters
+- Static discharge swivel vacuum hose
 
 ### Major software changes:
-- Custom Fusion 360 post to enable automatic tool changes and bleeder board compensation.
-- Custom cncjs macros to perform automatic tool changes and allow bleeder board compensation.
+- Custom Fusion 360 post to enable automatic tool changes, probing, and bleeder board compensation.
+- Custom cncjs macros to perform automatic tool changes, probing, and bleeder board compensation.
+
