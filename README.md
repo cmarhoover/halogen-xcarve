@@ -26,6 +26,7 @@ Files for customized CNC router, based on X-Carve XXL.
 - Festo regulator / air filter
 - Ultramation linear thrusters
 - Static discharge swivel vacuum hose
+- Eyoyo 15" TFT touch screen
 
 ### Major software changes:
 - Custom Fusion 360 post to enable automatic tool changes, probing, and bleeder board compensation.
