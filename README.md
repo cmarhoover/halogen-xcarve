@@ -4,7 +4,8 @@ Files for customized CNC router, based on X-Carve XXL.
 # Major hardware changes:
 - Mechatron HFSAC-6508-ER11 spindle + Mechatron STC65 tool changer + Omron MX2 VFD<br>
 - Customized X-controller box with add'l components:<br>
-  - Lattepanda v1 2G/32G with integrated arduino leonardo. Running Manjaro 20 Lysia and cncjs
+  - Lattepanda v1 2G/32G Intel Atom z8350 + integrated arduino leonardo.
+  - Manjaro 20 Lysia + cncjs + lcd on grbl
   - Buck converters for 12v and 5v
   - 12v relay bank
   - 20x4 LCD
