@@ -15,7 +15,7 @@ Files for customized CNC router, based on X-Carve XXL, using X-Controller driver
   - Wifi antenna
   - Noctua 40mm x 40mm 12v quiet fan
 - 1000mm x 1000mm makerslide frame, stiffened / raised.
-- 8mm lead screws for all axes. Based on kit from <a href="https://mfxworkshop.com/product/screwdrive-kit-2-lift/">MFX Workshop</a>. 
+- 8mm lead screws. Based on kit from <a href="https://mfxworkshop.com/product/screwdrive-kit-2-lift/">MFX Workshop</a>. 
 - Custom Z-axis linear slide.
 - Custom SLA printed dust shoe.
 - Custom HDPE vacuum grid on MDF/steel table + Ametek 3-stage vacuum motor.
