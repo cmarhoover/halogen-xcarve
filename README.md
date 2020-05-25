@@ -1,11 +1,11 @@
 # halogen-xcarve
 Files for customized CNC router, based on X-Carve XXL.
 
-## Major hardware changes:
+### Major hardware changes:
 - Mechatron HFSAC-6508-ER11 spindle + Mechatron STC65 tool changer + Omron MX2 VFD<br>
 - Customized X-controller box with add'l components:<br>
   - Lattepanda v1 2G/32G Intel Atom z8350 + integrated arduino leonardo.
-  - Manjaro 20 Lysia + cncjs + lcd on grbl
+    - Manjaro 20 Lysia + cncjs + lcd on grbl
   - Buck converters for 12v and 5v
   - 12v relay bank
   - 20x4 LCD
@@ -18,6 +18,6 @@ Files for customized CNC router, based on X-Carve XXL.
 - Custom HDPE vacuum grid on MDF/steel table + Ametek 3-stage vacuum motor.
 - Custom acrylic retractable tool magazine.
 
-## Major software changes:
+### Major software changes:
 - Custom Fusion 360 post to enable automatic tool changes and bleeder board compensation.
 - Custom cncjs macros to perform automatic tool changes and allow bleeder board compensation.
