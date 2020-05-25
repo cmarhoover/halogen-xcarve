@@ -32,3 +32,5 @@ Files for customized CNC router, based on X-Carve XXL.
 - Custom Fusion 360 post to enable automatic tool changes, probing, and bleeder board compensation.
 - Custom cncjs macros to perform automatic tool changes, probing, and bleeder board compensation.
 
+## Basic workflow principles:
+- 
