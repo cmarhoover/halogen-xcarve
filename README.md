@@ -33,4 +33,4 @@ Files for customized CNC router, based on X-Carve XXL.
 - Custom cncjs macros to perform automatic tool changes, probing, and bleeder board compensation.
 
 ## Basic workflow principles:
-- 
+- Custom fusion 360 post inserts global variables into gcode that are processed by macros in cncjs. 
