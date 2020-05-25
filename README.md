@@ -1,7 +1,7 @@
 # halogen-xcarve
 Files for customized CNC router, based on X-Carve XXL, using X-Controller driver board with GRBL 1.1h
 
-### Major hardware changes:
+### hardware changes:
 - Mechatron HFSAC-6508-ER11 spindle + Mechatron STC65 tool changer + Omron MX2 VFD<br>
 - Customized X-controller box with add'l components:<br>
   - Lattepanda v1 2G/32G Intel Atom z8350 + integrated arduino leonardo.
@@ -28,9 +28,9 @@ Files for customized CNC router, based on X-Carve XXL, using X-Controller driver
 - Static discharge swivel vacuum hose
 - Eyoyo 15" TFT touch screen
 
-### Major software changes:
+### software changes:
 - Custom Fusion 360 post to enable automatic tool changes, probing, and bleeder board compensation.
 - Custom cncjs macros to perform automatic tool changes, probing, and bleeder board compensation.
 
-## Basic workflow principles:
+## basic workflow principles:
 - Custom fusion 360 post inserts global variables into gcode that are processed by macros in cncjs. 
