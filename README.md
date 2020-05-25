@@ -6,7 +6,7 @@ Files for customized CNC router, based on X-Carve XXL.
 - Customized X-controller box with add'l components:<br>
   - Lattepanda v1 2G/32G Intel Atom z8350 + integrated arduino leonardo.
     - Manjaro 20 XFCE 
-    - cncjs server
+    - cncjs (server)
     - lcd on grbl (running on leonardo to power 20x4 LCD)
   - Buck converters for 12v and 5v
   - 12v relay bank
