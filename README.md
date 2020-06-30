@@ -1,5 +1,6 @@
 # halogen-xcarve
 Files for customized CNC router, based on X-Carve XXL, using X-Controller driver board with <a href="https://github.com/gnea/grbl">GRBL 1.1h</a>
+Video of auto-tool change / probing routine <a href="https://youtu.be/f6pbz_fGYno">here</a>. 
 
 ### hardware changes:
 - Mechatron HFSAC-6508-ER11 spindle + Mechatron STC65 tool changer + Omron MX2 VFD<br>
