@@ -1,7 +1,7 @@
 # halogen-xcarve
 - Files for customized CNC router, based on X-Carve XXL, using X-Controller driver board with <a href="https://github.com/gnea/grbl">GRBL 1.1h</a>
 - Features include:
-  - Server setup with all necessary electronics inside X-controller box. Any device on the network can access machine through web browser. Prevents accidental disconnects during machining.
+  - Server setup with all necessary electronics inside X-controller box. Access via any network device with web browser. Gcode processed locally, preventing accidental disconnects. Touch screen connected directly to controller with touch-optimized interface enabled.
   - Approx 30" x 30" x 5" usable work area.
   - 24K rpm spindle with auto-tool change capability. Supports ISO10 tool holders / ER16 collets.
   - Retractable tool magazine.
