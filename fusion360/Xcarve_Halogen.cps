@@ -1,13 +1,9 @@
 /**
-  Copyright (C) 2012-2018 by Autodesk, Inc.
-  All rights reserved.
-
-  X-Carve Grbl post processor configuration.
-
-  $Revision: 42201 c51c30e97ed4569f048271e7396605d37ddc71f5 $
-  $Date: 2018-11-21 09:02:19 $
-
-  FORKID {D897E9AA-349A-4011-AA01-06B6CCC181EB}
+  Customized Autodesk Fusion 360 post processor for use with GRBL 1.1h and cncjs.
+  Forked from Stroom's GRBL-Post-Processor: https://github.com/Strooom/GRBL-Post-Processor
+  
+  - Adds cncjs global variables for bleeder board compensation
+  - Adds cncjs global variables for automatic tool changes
 */
 
 description = "X-Carve - Halogen";
