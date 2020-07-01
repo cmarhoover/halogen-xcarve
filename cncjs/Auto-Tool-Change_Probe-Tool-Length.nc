@@ -7,12 +7,12 @@
 %PROBE_FEEDRATE = 200
 %PROBE_DISTANCE = -100
 %PROBE_HEIGHT = -60
-%TOOL_MAGAZINE_X = 138.1
-%TOOL_MAGAZINE_Y = 26.5
-%TOOL_MAGAZINE_Z = -110.7
+%TOOL_MAGAZINE_X = 222.8
+%TOOL_MAGAZINE_Y = 3.7
+%TOOL_MAGAZINE_Z = -51.8
 %TOOLHOLDER_PREV_X = global.prevTool * 50 + TOOL_MAGAZINE_X
 %TOOLHOLDER_CURRENT_X = global.activeTool * 50 + TOOL_MAGAZINE_X
-%TOOLHOLDER_Y = 56.5
+%TOOLHOLDER_Y = 33.7
 %TOOLCHANGE_FEEDRATE = 500
 %TOOLCHANGE_RETRACT_FEEDRATE = 2500
 
@@ -32,11 +32,18 @@
 %SPINDLE = modal.spindle
 %COOLANT = modal.coolant
 
-; Replace previous tool into magazine and fetch current tool
+;Halt and retract spindle
 M5
 G90 G17 G21
 G53 G0 Z[MACHINE_MAX_Z]
-G53 G0 X[TOOLHOLDER_PREV_X]Y[TOOLHOLDER_Y]
+
+;Extend tool magazine
+M9
+%wait
+
+; Replace previous tool into magazine and fetch current tool
+G53 G0 Y[TOOLHOLDER_Y]
+G53 G0 X[TOOLHOLDER_PREV_X]
 G53 G1 Z[TOOL_MAGAZINE_Z] F[TOOLCHANGE_RETRACT_FEEDRATE]
 G53 G1 Y[TOOL_MAGAZINE_Y] F[TOOLCHANGE_FEEDRATE]
 %wait
@@ -51,6 +58,10 @@ G53 G1 Z[TOOL_MAGAZINE_Z] F[TOOLCHANGE_FEEDRATE]
 M9
 %wait
 G53 G1 Y[TOOLHOLDER_Y] F[TOOLCHANGE_FEEDRATE]
+
+;Retract tool magazine.
+M7
+%wait
 
 ; Probe current tool and update tool length offset
 M5
