@@ -8,7 +8,6 @@
   - Tool length probing. 
   - Vacuum grid for clamp-free hold down.
   - Dust collection system with auto-on during machining.  
-- Video of auto-tool change / probing routine <a href="https://youtu.be/f6pbz_fGYno">here</a>. 
 
 ### hardware changes:
 - Mechatron HFSAC-6508-ER11 spindle + Mechatron STC65 tool changer + Omron MX2 VFD<br>
@@ -41,5 +40,8 @@
 - Custom Fusion 360 post to enable automatic tool changes, probing, and bleeder board compensation.
 - Custom cncjs macros to perform automatic tool changes, probing, and bleeder board compensation.
 
-## basic workflow principles:
+### basic workflow principles:
 - Custom fusion 360 post inserts global variables into gcode that are processed by macros in cncjs. 
+
+### documentation
+- Video of auto-tool change / probing routine <a href="https://youtu.be/f6pbz_fGYno">here</a>. 
